@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import styles from '../app/layout.module.css';
+import styles from './layout.module.css';
 
 export const SideBar: React.FC = () => {
   return (

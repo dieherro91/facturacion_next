@@ -1,4 +1,4 @@
-import { Button } from '@/app/components/atoms';
+import { Button } from '@/components/atoms';
 import Image from 'next/image';
 import Link from 'next/link';
 
