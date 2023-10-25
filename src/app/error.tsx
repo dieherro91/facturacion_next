@@ -15,7 +15,7 @@ export default function Error({
   }, [error]);
 
   return (
-    <div className={styles.center}>
+    <div className={styles.center_flex}>
       <h2>Something went wrong!</h2>
       <button
         onClick={

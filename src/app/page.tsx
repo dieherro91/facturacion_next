@@ -1,4 +1,4 @@
-import { Button } from '@/components/atoms/Buttom';
+import { Button } from '@/app/components/atoms';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -27,7 +27,7 @@ export default function Home() {
           </a>
           <Link href="/dashboard">dashboard</Link>
           <br />
-          <Button />
+          <Button label="cosas 2" />
         </div>
       </div>
     </main>

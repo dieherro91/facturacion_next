@@ -1,5 +1,14 @@
 :root {
-
+  --primary-color: var(--theme-primary-color);
+  --secondary-color: var(--theme-secondary-color);
+  --background-color: var(--theme-background-color);
+  --text-color: var(--theme-text-color);
+  --link-color: var(--theme-link-color);
+  --error-color: var(--theme-error-color);
+  --success-color: var(--theme-success-color);
+  --warning-color: var(--theme-warning-color);
+  --info-color: var(--theme-info-color);
+  --accent-color: var(--theme-accent-color);
 }
 
 body {
@@ -8,4 +17,5 @@ body {
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
+  background-color: var(--accent-color);
 }

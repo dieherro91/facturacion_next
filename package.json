@@ -7,7 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "lintThinks": "eslint --fix . --ext .ts,.tsx"
+    "lintThinks": "eslint --fix . --ext .ts,.tsx",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "dependencies": {
     "@tanstack/react-query": "^5.0.0",
@@ -17,6 +19,14 @@
     "react-dom": "^18"
   },
   "devDependencies": {
+    "@storybook/addon-essentials": "^7.5.1",
+    "@storybook/addon-interactions": "^7.5.1",
+    "@storybook/addon-links": "^7.5.1",
+    "@storybook/addon-onboarding": "^1.0.8",
+    "@storybook/blocks": "^7.5.1",
+    "@storybook/nextjs": "^7.5.1",
+    "@storybook/react": "^7.5.1",
+    "@storybook/testing-library": "^0.2.2",
     "@tanstack/eslint-plugin-query": "^5.0.0",
     "@types/node": "^20",
     "@types/react": "^18",
@@ -27,8 +37,10 @@
     "eslint-config-next": "13.5.6",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-prettier": "^5.0.1",
+    "eslint-plugin-storybook": "^0.6.15",
     "eslint-plugin-tss-unused-classes": "^1.0.2",
     "prettier": "^3.0.3",
+    "storybook": "^7.5.1",
     "typescript": "^5"
   }
 }

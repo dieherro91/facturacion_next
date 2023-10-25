@@ -2,8 +2,8 @@ import { Inter } from 'next/font/google';
 import type { Metadata } from 'next';
 import './globals.css';
 import { Container, Main, SideBar, TopBar } from '@/layout';
-import ThemeProvider from '@/context/mainProvider';
 import { Footer } from '@/layout/Footer';
+import { ThemeProvider } from '@/context/ThemeContext';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -18,7 +18,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="es">
       <body className={inter.className}>
         <ThemeProvider>
           <Container>

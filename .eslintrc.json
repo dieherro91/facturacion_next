@@ -3,7 +3,8 @@
     "next/core-web-vitals",
     "plugin:@tanstack/eslint-plugin-query/recommended",
     "eslint:recommended",
-    "plugin:@typescript-eslint/recommended"
+    "plugin:@typescript-eslint/recommended",
+    "plugin:storybook/recommended"
   ],
   "plugins": [
     "@typescript-eslint",
