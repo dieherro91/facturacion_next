@@ -4,7 +4,7 @@ import { ButtonProps } from './ButtonModel';
 import ButtonStyle from './button.module.css';
 
 export const Button = ({
-  primary = true,
+  primary = false,
   size = 'medium',
   label,
   ...rest

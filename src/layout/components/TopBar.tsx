@@ -1,4 +1,4 @@
-import styles from '../app/page.module.css';
+import styles from '../app/layout.module.css';
 import { ThemeButton } from '@/app/components/ThemeButton';
 
 export const TopBar: React.FC = () => {

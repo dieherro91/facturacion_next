@@ -8,8 +8,7 @@ import {
   useMemo,
   useEffect,
 } from 'react';
-import { lightTheme, darkTheme } from '../layout/Themes/index';
-import { ModelTheme } from '@/layout/Themes/themeModel';
+import { ModelTheme, darkTheme, lightTheme } from '@/layout/Themes';
 
 export interface ThemeContextType {
   theme: string;

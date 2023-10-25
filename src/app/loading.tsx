@@ -1,4 +1,4 @@
-import styles from './page.module.css';
+import styles from './layout.module.css';
 
 export default function Loading() {
   // You can add any UI inside Loading, including a Skeleton.
