@@ -10,13 +10,13 @@ export const Button = ({
   ...rest
 }: ButtonProps) => {
   const mode = primary
-    ? ButtonStyle['storybook-button--primary']
-    : ButtonStyle['storybook-button--secondary'];
+    ? ButtonStyle['main-button--primary']
+    : ButtonStyle['main-button--secondary'];
   return (
     <button
       className={[
-        ButtonStyle['storybook-button'],
-        ButtonStyle[`storybook-button--${size}`],
+        ButtonStyle['main-button'],
+        ButtonStyle[`main-button--${size}`],
         mode,
       ].join(' ')}
       {...rest}

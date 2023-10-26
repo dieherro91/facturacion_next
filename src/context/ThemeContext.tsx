@@ -31,7 +31,8 @@ interface ThemeProviderProps {
 }
 
 export function ThemeProvider({ children }: ThemeProviderProps) {
-  const [theme, setTheme] = useState<'dark' | 'light'>('light');
+  const localTheme = window.localStorage.getItem('theme') as 'dark' | 'light';
+  const [theme, setTheme] = useState<'dark' | 'light'>(localTheme ?? 'light');
 
   const toggleTheme = () => {
     setTheme((prevTheme) => (prevTheme === 'light' ? 'dark' : 'light'));
@@ -46,6 +47,7 @@ export function ThemeProvider({ children }: ThemeProviderProps) {
   }, [theme, themes]);
 
   useEffect(() => {
+    window.localStorage.setItem('theme', theme);
     if (themes) {
       document.documentElement.style.setProperty(
         '--theme-primary-color',

@@ -3,7 +3,7 @@ import styles from './layout.module.css';
 export const Footer = () => {
   return (
     <section className={styles.footer}>
-      <span>cos</span>
+      <span>Powered by DgoRomr</span>
     </section>
   );
 };

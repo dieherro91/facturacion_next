@@ -27,7 +27,8 @@ export default function Home() {
           </a>
           <Link href="/dashboard">dashboard</Link>
           <br />
-          <Button label="cosas 2" />
+          <Button primary={true} label="cosas true" />
+          <Button label="cosas false" />
         </div>
       </div>
     </main>

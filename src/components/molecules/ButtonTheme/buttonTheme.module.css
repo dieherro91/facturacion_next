@@ -1,0 +1,18 @@
+.theme-button {
+  cursor: pointer;
+  background-color: var(--info-color);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 0.1px solid var(--info-color);
+  padding: 0px;
+  margin: 0px;
+}
+.theme-button:hover {
+  background-color: var(--background-color);
+}
+
+.icon-theme {
+  font-size: 20px;
+  color: var(--warning-color);
+}

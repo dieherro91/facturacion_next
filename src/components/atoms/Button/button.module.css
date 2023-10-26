@@ -1,31 +1,46 @@
-.storybook-button {
-    font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-weight: 700;
-    border: 0;
-    border-radius: 3em;
-    cursor: pointer;
-    display: inline-block;
-    line-height: 1;
-  }
-  .storybook-button--primary {
-    color: white;
-    background-color: #1ea7fd;
-  }
-  .storybook-button--secondary {
-    color: #333;
-    background-color: transparent;
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
-  }
-  .storybook-button--small {
-    font-size: 12px;
-    padding: 10px 16px;
-  }
-  .storybook-button--medium {
-    font-size: 14px;
-    padding: 11px 20px;
-  }
-  .storybook-button--large {
-    font-size: 16px;
-    padding: 12px 24px;
-  }
-  
+.main-button {
+  font-weight: 700;
+  border: 0;
+  border-radius: 3em;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1;
+}
+.main-button--primary {
+  color: var(--background-color);
+  background-color: var(--success-color);
+}
+.main-button--primary:hover {
+  color: var(--primary-color);
+  background-color: var(--warning-color);
+}
+.main-button--primary:active {
+  background-color: blue;
+}
+
+.main-button--secondary {
+  color: var(--error-color);
+  background-color: var(--background-color);
+  border-color: var(--background-color);
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
+}
+.main-button--secondary:hover {
+  color: var(--background-color);
+  background-color: var(--warning-color);
+}
+.main-button--secondary:active {
+  background-color: red;
+}
+
+.main-button--small {
+  font-size: 12px;
+  padding: 10px 16px;
+}
+.main-button--medium {
+  font-size: 14px;
+  padding: 11px 20px;
+}
+.main-button--large {
+  font-size: 16px;
+  padding: 12px 24px;
+}
